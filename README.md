@@ -4,7 +4,7 @@ We're happy to see you here for whatever reason.
 
 Here's for update list
 
-Early Development State
+# Early Development State
 
 v0.0.2ea
 - Added frontend, backend, database branch
