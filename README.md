@@ -1,11 +1,11 @@
-Welcome to B.S. analyst github!!
+### Welcome to B.S. analyst github!!
 
 We're happy to see you here for whatever reason.
 
+What's the point
+- IDK either.
+
 Here's for update list
-
-
-
 
 ## Early Development State
 
