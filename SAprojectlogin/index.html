@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in/sing up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css
+">
+</head>
+<body>
+    <div class="navbar">
+  <div class="logo">
+    <img src="lastlogoSA.png" alt="Tradee Logo">
+  </div>
+</div>
+    <div class="container">
+        <!--log in  from-->
+        <div class="form-box login">
+            <form action="#">
+                <h1>Login</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="forgot-link">
+                    <a href="#">Forget Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+        <!--Register  from-->
+        <div class="form-box register">
+            <form action="#">
+                <h1>Rigistration</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="Email" required>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password confirm" required>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="forgot-link">
+                    <a href="#">Forget Password?</a>
+                </div>
+                <button type="submit" class="btn">Register</button>
+            </form>
+        </div>
+        <!--toggle box-->
+        <div class="toggle-box">
+            <!--toggle box  left-->
+            <div class="toggle-panel toggle-left">
+                <h1>Hello, welcome!</h1>
+                <p>Don't have an Account?</p>
+                <button class="btn register-btn">Register</button>
+            </div>
+            <!--toggle box  Right-->
+            <div class="toggle-panel toggle-right">
+                <h1>Welcome Back!</h1>
+                <p>Already have an Account?</p>
+                <button class="btn login-btn">Login</button>
+            </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
